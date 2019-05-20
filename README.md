@@ -9,7 +9,7 @@ authors:
 
 # Título de la práctica
 
-Descripción de la práctica
+Programación en Python de dos botones para el control del avance y retroceso de dos cilibndros nuemáticos vía wifi.
 
 ![](practica.gif)
 
