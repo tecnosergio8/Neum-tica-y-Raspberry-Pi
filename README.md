@@ -25,14 +25,12 @@ Programación en Python de dos botones para el control del avance y retroceso de
 - Conductos neumáticos para distribución de aire a presión.
 - Cables de conexión para las electroválvulas.
 
-## Esquema eléctrico
-
-Descripción y fórmulas del esquema eléctrico si las hubiese
+## Montaje de la práctica
 
 ```
 
 
-Fórmulas
+
 ```
 
 ![](fritzing.png)
