@@ -29,11 +29,9 @@ Programación en Python de dos botones para el control del avance y retroceso de
 
 ```
 
-
-
 ```
 
-![](fritzing.png)
+![](ezgif.com-optimize.gif)
 
 ## Programación
 
