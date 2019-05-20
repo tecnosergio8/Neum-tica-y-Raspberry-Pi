@@ -28,11 +28,9 @@ Programación en Python de dos botones para el control del avance y retroceso de
 ## Montaje de la práctica
 
 ```
-
-```
-
 ![](ezgif.com-optimize.gif)
 
+```
 ## Programación
 
 Se muestran los progamas en Python y el HTML para hacer los botones.
