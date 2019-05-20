@@ -30,8 +30,7 @@ Programación en Python de dos botones para el control del avance y retroceso de
 Descripción y fórmulas del esquema eléctrico si las hubiese
 
 ```
-V = 5V - 2.1V = 2.9V
-I = 20mA
+
 
 Fórmulas
 ```
