@@ -37,7 +37,7 @@ Programación en Python de dos botones para el control del avance y retroceso de
 
 ## Programación
 
-Descripción interesante sobre la programación
+Se muestran los progamas en Python y el HTML para hacer los botones.
 
 ```python
 # Programa en python
