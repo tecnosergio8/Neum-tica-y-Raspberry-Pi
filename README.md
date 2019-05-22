@@ -43,17 +43,17 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
 # leds
-amarillo = 17
+rojo = 17
 verde = 18
-GPIO.setup(amarillo, GPIO.OUT)
-GPIO.output(amarillo, GPIO.LOW)
+GPIO.setup(rojo, GPIO.OUT)
+GPIO.output(rojo, GPIO.LOW)
 GPIO.setup(verde, GPIO.OUT)
 GPIO.output(verde, GPIO.LOW)
 
 @app.route('/')
 def home():
    templateData = {
-      'amarillo' : GPIO.input(amarillo),
+      'rojo' : GPIO.input(rojo),
       'verde' : GPIO.input(verde),
    }
    return render_template('home.html', **templateData)
@@ -62,7 +62,7 @@ def home():
 def led(led, action):
    GPIO.output(int(led), int(action))
    templateData = {
-      'amarillo' : GPIO.input(amarillo),
+      'rojo' : GPIO.input(rojo),
       'verde' : GPIO.input(verde),
    }
    return render_template('home.html', **templateData)
@@ -96,7 +96,7 @@ if __name__ == '__main__':
          line-height: 3;
          color: #ffffff;
       }
-      .btn.amarillo {
+      .btn.rojo {
          background: #ff0000;
       }
       </style>
@@ -126,10 +126,10 @@ if __name__ == '__main__':
 <body>
     
 
-   {% if amarillo == 0 %}
+   {% if rojo == 0 %}
       <a class="btn" href="/17/1">A</a>
    {% else %}
-      <a class="btn amarillo" href="/17/0">R</a>
+      <a class="btn rojo" href="/17/0">R</a>
    {% endif %}
 
    {% if verde == 0 %}
