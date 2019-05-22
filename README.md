@@ -2,7 +2,7 @@
 title: Gobierno a distancia de dos cilindros neumáticos con Raspberry Pi
 description: Programación en Python de dos botones para el control del avance y retroceso de dos cilindros nuemáticos vía wifi
 tags: Raspberry Pi, Python, Neumática
-level: Facil
+level: Fácil
 authors:
   - { name: Sergio Lino Ferrández Gil, github: tecnosergio8 }
 ---
