@@ -19,7 +19,7 @@ Programación en Python de dos botones para el control del avance y retroceso de
 - 1 módulo de dos relés de 5 V.
 - Cables de conexión Dupont hembra-hembra para conectar los relés a la Raspberry Pi.
 - 2 Cilindros neumáticos de doble efecto.
-- 2 electroválvulas neumáticas 3/2 de 24 V.
+- 2 electroválvulas neumáticas 4/2 de 24 V.
 - 1 Fuente de alimentación de 24 V para alimentación de las electroválvulas.
 - 1 Compresor neumático con unidad de mantenimiento.
 - Conductos neumáticos para distribución de aire a presión.
